@@ -234,6 +234,7 @@ function App() {
             </Footer>
             <Divider>
                 <a
+                    rel="noopener noreferrer"
                     target="_blank"
                     href="https://www.linkedin.com/danielohuruogu">
                     Link for more of me
