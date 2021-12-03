@@ -11,7 +11,7 @@ import {
     Badge,
     Tag,
     Avatar,
-    Radio, Popconfirm
+    Radio, Popconfirm, Divider
 } from 'antd';
 
 import {
@@ -230,6 +230,13 @@ function App() {
                     width={75}
                     src="https://user-images.githubusercontent.com/47153027/144475048-c4fc9808-3f68-4fa6-a5c6-bf5565dae188.jpeg"
                 />
+                <Divider>
+                    <a
+                        target="_blank"
+                        href="linkedin.com/danielohuruogu">
+                        Click here for more of me
+                    </a>
+                </Divider>
             </Footer>
         </Layout>
     </Layout>
