@@ -226,7 +226,7 @@ function App() {
                 </div>
             </Content>
             <Footer style={{textAlign: 'center'}}>
-                Just to see if this thing here works
+                Just to see if this thing here works. And it does
                 <Image
                     width={75}
                     src="https://image.shutterstock.com/image-photo/vegetarian-person-600w-84748639.jpg"
