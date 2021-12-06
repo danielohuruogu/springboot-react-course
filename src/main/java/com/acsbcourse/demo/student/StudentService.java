@@ -1,7 +1,7 @@
-package com.example.demo.student;
+package com.acsbcourse.demo.student;
 
-import com.example.demo.student.exception.BadRequestException;
-import com.example.demo.student.exception.StudentNotFoundException;
+import com.acsbcourse.demo.student.exception.BadRequestException;
+import com.acsbcourse.demo.student.exception.StudentNotFoundException;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -31,7 +31,7 @@ public class StudentService {
     }
 
     public void deleteStudent(Long studentId) {
-        if(!studentRepository.existsById(studentId)) {
+        if (!studentRepository.existsById(studentId)) {
             throw new StudentNotFoundException(
                     "Student with id " + studentId + " does not exists");
         }

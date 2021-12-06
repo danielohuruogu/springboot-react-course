@@ -1,4 +1,4 @@
-package com.example.demo.student;
+package com.acsbcourse.demo.student;
 
 public enum Gender {
     MALE,

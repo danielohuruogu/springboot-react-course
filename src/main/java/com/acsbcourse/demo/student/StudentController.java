@@ -1,4 +1,4 @@
-package com.example.demo.student;
+package com.acsbcourse.demo.student;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
