@@ -72,7 +72,7 @@
                 <version>2.5.2</version>
                 <configuration>
                     <from>
-                        <image>openjdk:15</image>
+                        <image>openjdk:17</image>
                     </from>
                     <container>
                         <ports>
@@ -106,7 +106,7 @@
                         <version>2.5.2</version>
                         <configuration>
                             <from>
-                                <image>openjdk:15</image>
+                                <image>openjdk:17</image>
                             </from>
                             <container>
                                 <ports>
@@ -158,7 +158,7 @@
                         <version>2.5.2</version>
                         <configuration>
                             <from>
-                                <image>openjdk:15</image>
+                                <image>openjdk:17</image>
                             </from>
                             <container>
                                 <ports>
