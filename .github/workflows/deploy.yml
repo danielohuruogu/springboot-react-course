@@ -14,7 +14,7 @@ env:
   POSTGRESQL_USER: example
   POSTGRESQL_PASSWORD: password
   # Java
-  JAVA_VERSION: 1.15
+  JAVA_VERSION: 1.17
   # DockerHub
   DOCKER_HUB_USERNAME: dano1228
   # AWS & Elastic Bean Stalk
