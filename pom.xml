@@ -69,7 +69,7 @@
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>jib-maven-plugin</artifactId>
-                <version>2.5.2</version>
+                <version>3.1.4</version>
                 <configuration>
                     <from>
                         <image>openjdk:17</image>
@@ -95,7 +95,7 @@
                     <plugin>
                         <groupId>com.google.cloud.tools</groupId>
                         <artifactId>jib-maven-plugin</artifactId>
-                        <version>2.5.2</version>
+                        <version>3.1.4</version>
                         <configuration>
                             <from>
                                 <image>openjdk:17</image>
@@ -147,7 +147,7 @@
                     <plugin>
                         <groupId>com.google.cloud.tools</groupId>
                         <artifactId>jib-maven-plugin</artifactId>
-                        <version>2.5.2</version>
+                        <version>3.1.4</version>
                         <configuration>
                             <from>
                                 <image>openjdk:17</image>
