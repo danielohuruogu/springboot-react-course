@@ -115,6 +115,7 @@ logs
 **/*.backup.*
 **/*.back.*
 
+node
 node_modules
 bower_components
 
