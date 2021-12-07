@@ -11,7 +11,7 @@ import {
     Badge,
     Tag,
     Avatar,
-    Radio, Popconfirm
+    Radio, Popconfirm, Divider
 } from 'antd';
 
 import {
@@ -226,11 +226,20 @@ function App() {
                 </div>
             </Content>
             <Footer style={{textAlign: 'center'}}>
+                Just to see if this thing here works. And it does
                 <Image
                     width={75}
-                    src="https://user-images.githubusercontent.com/47153027/144475048-c4fc9808-3f68-4fa6-a5c6-bf5565dae188.jpeg"
+                    src="https://image.shutterstock.com/image-photo/vegetarian-person-600w-84748639.jpg"
                 />
             </Footer>
+            <Divider>
+                <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://www.linkedin.com/danielohuruogu">
+                    Link for more of me
+                </a>
+            </Divider>
         </Layout>
     </Layout>
 }

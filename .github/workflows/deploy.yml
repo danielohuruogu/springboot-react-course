@@ -2,7 +2,7 @@ name: CICD
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   # when there's a push to branch 'main' (should change this to master if the main branch of repo is master
 
   workflow_dispatch:
@@ -12,9 +12,9 @@ env:
   POSTGRESQL_VERSION: 13.1
   POSTGRESQL_DB: ebdb
   POSTGRESQL_USER: example
-  POSTGRESQL_PASSWORD: ohuruogu
+  POSTGRESQL_PASSWORD: password
   # Java
-  JAVA_VERSION: 1.15
+  JAVA_VERSION: 1.17
   # DockerHub
   DOCKER_HUB_USERNAME: dano1228
   # AWS & Elastic Bean Stalk
