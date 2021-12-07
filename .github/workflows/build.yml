@@ -8,8 +8,8 @@ on:
 
 env:
   POSTGRESQL_VERSION: 13.1
-  POSTGRESQL_DB: ebdb
-  POSTGRESQL_USER: example
+  POSTGRESQL_DB: acsb_fullstack
+  POSTGRESQL_USER: postgres
   POSTGRESQL_PASSWORD: password
   JAVA_VERSION: 1.17
 
