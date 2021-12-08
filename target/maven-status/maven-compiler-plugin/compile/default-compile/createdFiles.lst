@@ -3,6 +3,6 @@ com/acsbcourse/demo/student/StudentRepository.class
 com/acsbcourse/demo/student/Gender.class
 com/acsbcourse/demo/student/StudentController.class
 com/acsbcourse/demo/DemoApplication.class
-com/acsbcourse/demo/student/exception/BadRequestException.class
 com/acsbcourse/demo/student/Student.class
+com/acsbcourse/demo/student/exception/BadRequestException.class
 com/acsbcourse/demo/student/StudentService.class
