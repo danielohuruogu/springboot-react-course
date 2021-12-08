@@ -11,7 +11,7 @@ import {
     Badge,
     Tag,
     Avatar,
-    Radio, Popconfirm, Divider
+    Radio, Popconfirm, Divider, Image
 } from 'antd';
 
 import {
@@ -108,10 +108,6 @@ const columns = fetchStudents => [
 ];
 
 const antIcon = <LoadingOutlined style={{fontSize: 24}} spin/>;
-
-function Image(props) {
-    return null;
-}
 
 function App() {
     const [students, setStudents] = useState([]);
@@ -226,7 +222,7 @@ function App() {
                 </div>
             </Content>
             <Footer style={{textAlign: 'center'}}>
-                Just to see if this thing here works. And it does
+                Hello world, this is Footer speaking
                 <Image
                     width={75}
                     src="https://image.shutterstock.com/image-photo/vegetarian-person-600w-84748639.jpg"
